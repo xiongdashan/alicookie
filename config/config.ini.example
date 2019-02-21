@@ -1,0 +1,20 @@
+[selenium]
+host=http://127.0.0.1:4444/wd/hub
+[dama]
+api=http://api.yundama.com/api.php
+user=user
+pwd=password
+timeout=10
+
+[lianzhong]
+api=https://v2-api.jsdama.com
+# 打码平台用户名和密码
+user=user
+pwd=password
+
+[platform]
+# dama;lianzhong , 使用哪个平台打码
+name= lianzhong
+
+[host]
+port=:348
